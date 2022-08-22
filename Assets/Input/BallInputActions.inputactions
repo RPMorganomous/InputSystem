@@ -1,0 +1,34 @@
+{
+    "name": "BallInputActions",
+    "maps": [
+        {
+            "name": "Ball",
+            "id": "2d998945-13cb-4bd0-a1c5-f889a47afedc",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "2688111b-e232-4fdf-9257-99640e271689",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1c58be67-8b96-4af0-90ac-7f981e09a33f",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Hold(duration=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
