@@ -37,7 +37,7 @@ public class SliderInput : MonoBehaviour
 
     IEnumerator ChargeBarRoutine()
     {
-        while (_isCharging == true)
+        while (_isCharging == true  & _slider.value <= 1)
         {
             _slider.value += (1.0f * Time.deltaTime) /3f;
             yield return null;
