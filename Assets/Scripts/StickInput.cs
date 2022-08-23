@@ -11,14 +11,7 @@ public class StickInput : MonoBehaviour
     {
         _input = new StickInputActions();
         _input.Player.Enable();
-
-        //_input.Player.Movement.performed += Movement_performed;
     }
-
-    // private void Movement_performed(InputAction.CallbackContext ctx)
-    // {
-    //     var move = _input.Player.ReadValue<Vector2>();
-    // }
 
     // Update is called once per frame
     void Update()
