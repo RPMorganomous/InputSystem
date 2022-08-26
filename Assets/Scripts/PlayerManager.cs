@@ -27,5 +27,11 @@ public class PlayerManager : MonoBehaviour
     {
         _input = new PlayerManagerInputActions();
         _input.Player.Enable();
+        _input.Player.Fire.performed += Fire_performed;
+    }
+
+    private void Fire_performed(InputAction.CallbackContext obj)
+    {
+        _player.Fire();
     }
 }
